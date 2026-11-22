@@ -7,11 +7,11 @@
 **O teu ambiente de trabalho ao ritmo da música.**
 Capa, letra sincronizada e neon para o Spotify, no Windows.
 
-[![Última versão](https://img.shields.io/github/v/release/andreiadecristo33-pixel/whim-releases?label=vers%C3%A3o&color=22c55e&style=flat-square)](https://github.com/andreiadecristo33-pixel/whim-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/andreiadecristo33-pixel/whim-releases/total?label=downloads&color=16161a&style=flat-square)](https://github.com/andreiadecristo33-pixel/whim-releases/releases)
+[![Última versão](https://img.shields.io/github/v/release/akrysz-exe/whim-releases?label=vers%C3%A3o&color=22c55e&style=flat-square)](https://github.com/akrysz-exe/whim-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/akrysz-exe/whim-releases/total?label=downloads&color=16161a&style=flat-square)](https://github.com/akrysz-exe/whim-releases/releases)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-16161a?style=flat-square)
 
-### [⬇ Descarregar o Whim](https://github.com/andreiadecristo33-pixel/whim-releases/releases/latest)
+### [⬇ Descarregar o Whim](https://github.com/akrysz-exe/whim-releases/releases/latest)
 
 <img src="docs/images/hero.jpg" alt="Whim a tocar: capa do álbum, letra sincronizada e o disco no canto do ambiente de trabalho">
 
@@ -39,7 +39,7 @@ O Whim transforma o ambiente de trabalho num ecrã de música. Enquanto o Spotif
 
 ## Instalação
 
-1. Descarrega o **`Whim-Setup-x.y.z.exe`** da [última versão](https://github.com/andreiadecristo33-pixel/whim-releases/releases/latest).
+1. Descarrega o **`Whim-Setup-x.y.z.exe`** da [última versão](https://github.com/akrysz-exe/whim-releases/releases/latest).
 2. Abre-o. A instalação é automática, não pede permissões de administrador e cria um atalho **Whim** no ambiente de trabalho.
 3. O Whim abre sozinho e mostra os passos para ligares a tua conta Spotify.
 
@@ -169,7 +169,7 @@ Definições do Windows → **Aplicações → Aplicações instaladas** → **W
 <details>
 <summary><b>Encontrei um problema</b></summary>
 
-Abre uma [issue](https://github.com/andreiadecristo33-pixel/whim-releases/issues) com o que aconteceu e junta o ficheiro de diagnóstico. Para o encontrar, cola `%APPDATA%\Whim\diagnostics.log` na barra de endereço do Explorador de Ficheiros.
+Abre uma [issue](https://github.com/akrysz-exe/whim-releases/issues) com o que aconteceu e junta o ficheiro de diagnóstico. Para o encontrar, cola `%APPDATA%\Whim\diagnostics.log` na barra de endereço do Explorador de Ficheiros.
 </details>
 
 ## Requisitos
