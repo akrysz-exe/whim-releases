@@ -50,7 +50,21 @@ O Whim transforma o ambiente de trabalho num ecrã de música. Enquanto o Spotif
 
 ## Ligar o Spotify
 
-O Whim usa a API oficial do Spotify, e o Spotify exige que cada pessoa crie a sua própria "app de programador". É grátis e demora 2 minutos. O Whim mostra estes passos na primeira vez que abre:
+O Whim usa a API oficial do Spotify. O Spotify pede uma "app de programador" para isso, e só deixa usar estas apps se o dono tiver **Premium**. O caminho depende da tua conta:
+
+| | 👑 Premium | 🆓 Free |
+| --- | :---: | :---: |
+| Capa, letra sincronizada e neon | ✅ | ✅ |
+| Tocar / pausar, saltar, posição, volume | ✅ | ✅ |
+| Pesquisa e guardar nas tuas músicas | ✅ | ✅ |
+| Biblioteca (playlists) e fila "A seguir" no disco | ✅ | ❌ |
+| Onde toca a música | dentro do Whim | leitor web do Spotify, dentro do Whim |
+| Anúncios | ❌ | ✅ (os do Spotify Free) |
+| App de programador | crias a tua | usas a de um amigo Premium |
+
+### 👑 Se tens Premium
+
+Crias a tua própria app de programador. É grátis, demora 2 minutos e o Whim mostra estes passos na primeira vez que abre:
 
 <table>
 <tr>
@@ -66,6 +80,8 @@ O Whim usa a API oficial do Spotify, e o Spotify exige que cada pessoa crie a su
 5. Copia o **Client ID** da app e cola-o no Whim.
 6. Carrega em **Entrar com Spotify** e faz login no browser. Podes usar "Continuar com Google".
 
+Pronto: a música toca dentro do Whim.
+
 </td>
 <td>
 <img src="docs/images/onboarding.png" alt="Primeira configuração do Whim">
@@ -73,8 +89,23 @@ O Whim usa a API oficial do Spotify, e o Spotify exige que cada pessoa crie a su
 </tr>
 </table>
 
-> [!IMPORTANT]
-> Desde 2026, o Spotify só deixa criar apps de programador a contas **Premium**. Com Premium, a música toca dentro do Whim. Contas Free também funcionam, através do leitor web do Spotify e com anúncios, mas sem pesquisa, biblioteca e fila no disco.
+### 🆓 Se tens Spotify Free
+
+Como o Spotify não deixa contas Free serem donas de apps de programador, **usas a app de um amigo com Premium** que já use o Whim. Cada app aceita até 5 pessoas.
+
+**O teu amigo Premium faz** (uma vez):
+1. No [Spotify Developer Dashboard](https://developer.spotify.com/dashboard), abre a app dele → **Settings → User Management**.
+2. Adiciona o teu nome e o **email da tua conta Spotify**.
+3. Envia-te o **Client ID** da app dele. Não é segredo: só identifica a app, não dá acesso à conta dele.
+
+**Tu fazes:**
+1. No Whim, salta o passo 1 e cola o **Client ID** do teu amigo no passo 2.
+2. Carrega em **Entrar com Spotify** e faz login no browser com a **tua** conta.
+3. Abre-se uma janela **"Inicia sessão no Spotify"** com o leitor web do Spotify. Entra lá também com a tua conta, com email e palavra-passe ou com um código por email. O botão do Google não funciona nesta janela.
+4. Pronto: a música toca pelo leitor web, dentro do Whim, com os anúncios e limites normais do Spotify Free.
+
+> [!NOTE]
+> Usar a app do teu amigo **não** mistura as contas. Cada um entra com a sua conta e ouve as suas músicas e playlists. O teu amigo não vê o que ouves.
 
 ## Atalhos
 
@@ -142,7 +173,7 @@ Abre uma [issue](https://github.com/andreiadecristo33-pixel/whim-releases/issues
 ## Requisitos
 
 - Windows 10 ou 11 (64 bits)
-- Conta Spotify (Premium recomendado: ver acima)
+- Conta Spotify: Premium, ou Free com a app de um amigo Premium ([ver acima](#ligar-o-spotify))
 - Ligação à internet
 
 ---
