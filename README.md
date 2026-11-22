@@ -57,7 +57,9 @@ O Whim usa a API oficial do Spotify. O Spotify pede uma "app de programador" par
 | Capa, letra sincronizada e neon | ✅ | ✅ |
 | Tocar / pausar, saltar, posição, volume | ✅ | ✅ |
 | Pesquisa e guardar nas tuas músicas | ✅ | ✅ |
-| Biblioteca (playlists) e fila "A seguir" no disco | ✅ | ❌ |
+| Biblioteca: ver e tocar as tuas playlists | ✅ | ✅ |
+| Guardar músicas nas tuas playlists | ✅ | ✅ |
+| Fila "A seguir" (ver, reordenar, adicionar) | ✅ | ❌ |
 | Onde toca a música | dentro do Whim | leitor web do Spotify, dentro do Whim |
 | Anúncios | ❌ | ✅ (os do Spotify Free) |
 | App de programador | crias a tua | usas a de um amigo Premium |

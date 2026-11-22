@@ -1,5 +1,8 @@
 # Novidades
 
+## 0.6.4
+- **Contas Free agora têm a biblioteca no disco:** vês as tuas playlists e as músicas de que gostaste, tocas uma playlist inteira ou a partir de uma música, e podes guardar músicas nas tuas playlists. A fila continua só para Premium.
+
 ## 0.6.3
 - **Contas Free:** a janela de login do Spotify já não desaparece quando vais escrever o código enviado por email.
 
