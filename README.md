@@ -33,9 +33,6 @@ Whim turns your desktop into a music screen. While Spotify plays, the album art 
 - 🪶 **Lightweight.** When a game or a window covers the screen, the animations pause on their own.
 - 🔄 **Updates itself:** new versions install when you close Whim.
 
-> [!NOTE]
-> Whim's interface is currently in **Portuguese**. Button names below are given in Portuguese with the English meaning next to them.
-
 <div align="center">
 <img src="docs/images/card.png" width="520" alt="The control card that opens from the record">
 </div>
@@ -83,7 +80,7 @@ You create your own developer app. It's free, takes 2 minutes, and Whim shows th
    ```
 4. Tick **Web API** and **Web Playback SDK**, accept the terms and save.
 5. Copy the app's **Client ID** and paste it into Whim.
-6. Click **Entrar com Spotify** (*Sign in with Spotify*) and log in in your browser. "Continue with Google" works too.
+6. Click **Sign in with Spotify** and log in in your browser. "Continue with Google" works too.
 
 Done: the music plays inside Whim.
 
@@ -105,8 +102,8 @@ Spotify doesn't let Free accounts own developer apps, so **you use the app of a 
 
 **You do:**
 1. In Whim, skip step 1 and paste your friend's **Client ID** in step 2.
-2. Click **Entrar com Spotify** (*Sign in with Spotify*) and log in in your browser with **your own** account.
-3. A **"Inicia sessão no Spotify"** (*Log in to Spotify*) window opens with Spotify's web player. Log in there too with your account, using email and password or a code sent by email. The Google button doesn't work in this window.
+2. Click **Sign in with Spotify** and log in in your browser with **your own** account.
+3. A **"Log in to Spotify"** window opens with Spotify's web player. Log in there too with your account, using email and password or a code sent by email. The Google button doesn't work in this window.
 4. Done: the music plays through the web player, inside Whim, with Spotify Free's usual ads and limits.
 
 > [!NOTE]
@@ -154,7 +151,7 @@ In the tray menu (right-click the icon) you can also pick the monitor, if you ha
 <details>
 <summary><b>The lyrics are early or late</b></summary>
 
-Adjust it in **Settings → Letra (Lyrics) → Sincronização da letra (Lyrics sync)**. Lyrics come from LRCLIB, and some songs don't have synced lyrics.
+Adjust it in **Settings → Lyrics → Lyrics sync**. Lyrics come from LRCLIB, and some songs don't have synced lyrics.
 </details>
 
 <details>

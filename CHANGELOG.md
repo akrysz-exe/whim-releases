@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.5
+- **Whim is now in English:** every screen, button, message and the tray menu.
+- Updates now come from the new home of the project, `akrysz-exe/whim-releases`.
+
 ## 0.6.4
 - **Free accounts now get the library on the record:** browse your playlists and Liked Songs, play a whole playlist or start from a given song, and add songs to your playlists. The queue is still Premium-only.
 
