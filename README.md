@@ -4,182 +4,185 @@
 
 # Whim
 
-**O teu ambiente de trabalho ao ritmo da música.**
-Capa, letra sincronizada e neon para o Spotify, no Windows.
+**Your desktop, moving to the music.**
+Album art, synced lyrics and a neon glow for Spotify, on Windows.
 
-[![Última versão](https://img.shields.io/github/v/release/akrysz-exe/whim-releases?label=vers%C3%A3o&color=22c55e&style=flat-square)](https://github.com/akrysz-exe/whim-releases/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/akrysz-exe/whim-releases?label=release&color=22c55e&style=flat-square)](https://github.com/akrysz-exe/whim-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/akrysz-exe/whim-releases/total?label=downloads&color=16161a&style=flat-square)](https://github.com/akrysz-exe/whim-releases/releases)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-16161a?style=flat-square)
 
-### [⬇ Descarregar o Whim](https://github.com/akrysz-exe/whim-releases/releases/latest)
+### [⬇ Download Whim](https://github.com/akrysz-exe/whim-releases/releases/latest)
 
-<img src="docs/images/hero.jpg" alt="Whim a tocar: capa do álbum, letra sincronizada e o disco no canto do ambiente de trabalho">
+<img src="docs/images/hero.jpg" alt="Whim playing: album art, synced lyrics and the record in the corner of the desktop">
 
 </div>
 
-## O que é
+## What it is
 
-O Whim transforma o ambiente de trabalho num ecrã de música. Enquanto o Spotify toca, a capa do álbum e a letra aparecem por cima do papel de parede, uma linha neon contorna o ecrã com as cores da música, e um disco no canto dá-te os controlos.
+Whim turns your desktop into a music screen. While Spotify plays, the album art and lyrics appear over your wallpaper, a neon line traces the edge of the screen in the colours of the song, and a record in the corner gives you the controls.
 
-- 🎵 **Toca dentro da app.** Não precisas de ter o Spotify aberto.
-- 🖼️ **Capa e letra sincronizadas**, palavra a palavra, por cima do papel de parede (funciona com o Wallpaper Engine). Depois de 5 minutos em pausa, o teu papel de parede volta.
-- 🌈 **Neon na borda do ecrã**, com as cores da capa ou em arco-íris, e ondas que reagem ao som. A espessura e a altura das ondas são ajustáveis.
-- 💿 **Disco no canto**, sempre à mão no ambiente de trabalho:
-  - tocar e pausar, saltar, posição da música e volume;
-  - guardar nas tuas músicas, modo aleatório, pesquisa;
-  - as tuas playlists e a fila "A seguir", que podes reordenar arrastando.
-- ⌨️ **Atalhos globais**, que funcionam em qualquer janela, até a jogar.
-- 🖥️ **Vários monitores:** escolhes em qual o Whim aparece.
-- 🪶 **Leve.** Quando um jogo ou uma janela tapa o ecrã, as animações param sozinhas.
-- 🔄 **Atualiza-se sozinho:** as versões novas instalam-se quando fechas o Whim.
-
-<div align="center">
-<img src="docs/images/card.png" width="520" alt="O cartão de controlo que abre a partir do disco">
-</div>
-
-## Instalação
-
-1. Descarrega o **`Whim-Setup-x.y.z.exe`** da [última versão](https://github.com/akrysz-exe/whim-releases/releases/latest).
-2. Abre-o. A instalação é automática, não pede permissões de administrador e cria um atalho **Whim** no ambiente de trabalho.
-3. O Whim abre sozinho e mostra os passos para ligares a tua conta Spotify.
+- 🎵 **Plays inside the app.** You don't need Spotify open.
+- 🖼️ **Album art and synced lyrics**, word by word, over your wallpaper (works with Wallpaper Engine). After 5 minutes paused, your wallpaper comes back.
+- 🌈 **Neon around the screen edge**, in the album's colours or in rainbow, with waves that react to the sound. Thickness and wave height are adjustable.
+- 💿 **A record in the corner**, always at hand on the desktop:
+  - play and pause, skip, seek and volume;
+  - save to your Liked Songs, shuffle, search;
+  - your playlists and the "Up next" queue, which you can reorder by dragging.
+- ⌨️ **Global shortcuts** that work in any window, even in games.
+- 🖥️ **Multiple monitors:** you choose which one Whim lives on.
+- 🪶 **Lightweight.** When a game or a window covers the screen, the animations pause on their own.
+- 🔄 **Updates itself:** new versions install when you close Whim.
 
 > [!NOTE]
-> **"O Windows protegeu o computador"?** O Whim não está assinado com um certificado pago, por isso o Windows (SmartScreen) avisa na primeira vez. Carrega em **Mais informações → Executar assim mesmo**.
-> Em alternativa, antes de abrir: botão direito no ficheiro → **Propriedades** → marca **Desbloquear** → OK.
-> As atualizações automáticas não mostram este aviso.
+> Whim's interface is currently in **Portuguese**. Button names below are given in Portuguese with the English meaning next to them.
 
-## Ligar o Spotify
+<div align="center">
+<img src="docs/images/card.png" width="520" alt="The control card that opens from the record">
+</div>
 
-O Whim usa a API oficial do Spotify. O Spotify pede uma "app de programador" para isso, e só deixa usar estas apps se o dono tiver **Premium**. O caminho depende da tua conta:
+## Installation
+
+1. Download **`Whim-Setup-x.y.z.exe`** from the [latest release](https://github.com/akrysz-exe/whim-releases/releases/latest).
+2. Open it. Installation is automatic, needs no administrator rights and creates a **Whim** shortcut on your desktop.
+3. Whim opens by itself and walks you through connecting your Spotify account.
+
+> [!NOTE]
+> **"Windows protected your PC"?** Whim isn't signed with a paid certificate, so Windows SmartScreen warns you the first time. Click **More info → Run anyway**.
+> Alternatively, before opening it: right-click the file → **Properties** → tick **Unblock** → OK.
+> Automatic updates don't show this warning.
+
+## Connecting Spotify
+
+Whim uses Spotify's official API. For that, Spotify requires a "developer app", and only lets these apps be used if their owner has **Premium**. The setup depends on your account:
 
 | | 👑 Premium | 🆓 Free |
 | --- | :---: | :---: |
-| Capa, letra sincronizada e neon | ✅ | ✅ |
-| Tocar / pausar, saltar, posição, volume | ✅ | ✅ |
-| Pesquisa e guardar nas tuas músicas | ✅ | ✅ |
-| Biblioteca: ver e tocar as tuas playlists | ✅ | ✅ |
-| Guardar músicas nas tuas playlists | ✅ | ✅ |
-| Fila "A seguir" (ver, reordenar, adicionar) | ✅ | ❌ |
-| Onde toca a música | dentro do Whim | leitor web do Spotify, dentro do Whim |
-| Anúncios | ❌ | ✅ (os do Spotify Free) |
-| App de programador | crias a tua | usas a de um amigo Premium |
+| Album art, synced lyrics and neon | ✅ | ✅ |
+| Play / pause, skip, seek, volume | ✅ | ✅ |
+| Search and save to Liked Songs | ✅ | ✅ |
+| Library: browse and play your playlists | ✅ | ✅ |
+| Add songs to your playlists | ✅ | ✅ |
+| "Up next" queue (view, reorder, add) | ✅ | ❌ |
+| Where the music plays | inside Whim | Spotify's web player, inside Whim |
+| Ads | ❌ | ✅ (Spotify Free's own) |
+| Developer app | you create your own | you use a Premium friend's |
 
-### 👑 Se tens Premium
+### 👑 If you have Premium
 
-Crias a tua própria app de programador. É grátis, demora 2 minutos e o Whim mostra estes passos na primeira vez que abre:
+You create your own developer app. It's free, takes 2 minutes, and Whim shows these steps the first time it opens:
 
 <table>
 <tr>
 <td width="55%">
 
-1. Abre o [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) e carrega em **Create app**.
-2. Dá-lhe um nome qualquer, por exemplo *Whim*.
-3. Em **Redirect URI**, cola:
+1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and click **Create app**.
+2. Give it any name, for example *Whim*.
+3. Under **Redirect URI**, paste:
    ```
    http://127.0.0.1:43821/callback
    ```
-4. Marca **Web API** e **Web Playback SDK**, aceita os termos e guarda.
-5. Copia o **Client ID** da app e cola-o no Whim.
-6. Carrega em **Entrar com Spotify** e faz login no browser. Podes usar "Continuar com Google".
+4. Tick **Web API** and **Web Playback SDK**, accept the terms and save.
+5. Copy the app's **Client ID** and paste it into Whim.
+6. Click **Entrar com Spotify** (*Sign in with Spotify*) and log in in your browser. "Continue with Google" works too.
 
-Pronto: a música toca dentro do Whim.
+Done: the music plays inside Whim.
 
 </td>
 <td>
-<img src="docs/images/onboarding.png" alt="Primeira configuração do Whim">
+<img src="docs/images/onboarding.png" alt="Whim's first-time setup">
 </td>
 </tr>
 </table>
 
-### 🆓 Se tens Spotify Free
+### 🆓 If you have Spotify Free
 
-Como o Spotify não deixa contas Free serem donas de apps de programador, **usas a app de um amigo com Premium** que já use o Whim. Cada app aceita até 5 pessoas.
+Spotify doesn't let Free accounts own developer apps, so **you use the app of a Premium friend** who already uses Whim. Each app accepts up to 5 people.
 
-**O teu amigo Premium faz** (uma vez):
-1. No [Spotify Developer Dashboard](https://developer.spotify.com/dashboard), abre a app dele → **Settings → User Management**.
-2. Adiciona o teu nome e o **email da tua conta Spotify**.
-3. Envia-te o **Client ID** da app dele. Não é segredo: só identifica a app, não dá acesso à conta dele.
+**Your Premium friend does** (once):
+1. In the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard), open their app → **Settings → User Management**.
+2. Add your name and the **email of your Spotify account**.
+3. Send you the app's **Client ID**. It isn't a secret: it only identifies the app and gives no access to their account.
 
-**Tu fazes:**
-1. No Whim, salta o passo 1 e cola o **Client ID** do teu amigo no passo 2.
-2. Carrega em **Entrar com Spotify** e faz login no browser com a **tua** conta.
-3. Abre-se uma janela **"Inicia sessão no Spotify"** com o leitor web do Spotify. Entra lá também com a tua conta, com email e palavra-passe ou com um código por email. O botão do Google não funciona nesta janela.
-4. Pronto: a música toca pelo leitor web, dentro do Whim, com os anúncios e limites normais do Spotify Free.
+**You do:**
+1. In Whim, skip step 1 and paste your friend's **Client ID** in step 2.
+2. Click **Entrar com Spotify** (*Sign in with Spotify*) and log in in your browser with **your own** account.
+3. A **"Inicia sessão no Spotify"** (*Log in to Spotify*) window opens with Spotify's web player. Log in there too with your account, using email and password or a code sent by email. The Google button doesn't work in this window.
+4. Done: the music plays through the web player, inside Whim, with Spotify Free's usual ads and limits.
 
 > [!NOTE]
-> Usar a app do teu amigo **não** mistura as contas. Cada um entra com a sua conta e ouve as suas músicas e playlists. O teu amigo não vê o que ouves.
+> Using your friend's app does **not** mix your accounts. Each of you signs in with your own account and hears your own music and playlists. Your friend can't see what you listen to.
 
-## Atalhos
+## Shortcuts
 
-Funcionam em qualquer janela e podes mudá-los nas Definições.
+They work in any window and you can change them in Settings.
 
-| Ação | Atalho |
+| Action | Shortcut |
 | --- | --- |
-| Tocar / pausar | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Espaço</kbd> |
-| Música seguinte | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd> |
-| Música anterior | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> |
-| Subir / baixar volume | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> |
-| Ligar / desligar o neon | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> |
+| Play / pause | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> |
+| Next track | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd> |
+| Previous track | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> |
+| Volume up / down | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> |
+| Toggle the neon | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> |
 
-As teclas multimédia do teclado (⏯ ⏭ ⏮) também funcionam.
+Your keyboard's media keys (⏯ ⏭ ⏮) work too.
 
-## Definições
+## Settings
 
-As Definições abrem com um clique no ícone do Whim na bandeja, junto ao relógio. Lá ajustas:
-- o neon: cores, ondas, espessura e altura das ondas;
-- a sincronização da letra;
-- o arranque com o Windows;
-- os atalhos.
+Settings open with a click on the Whim icon in the system tray, next to the clock. There you can adjust:
+- the neon: colours, waves, thickness and wave height;
+- lyrics sync;
+- starting with Windows;
+- the shortcuts.
 
-No menu da bandeja (botão direito no ícone) escolhes também o monitor, se tiveres mais de um.
+In the tray menu (right-click the icon) you can also pick the monitor, if you have more than one.
 
 <div align="center">
-<img src="docs/images/settings.png" width="420" alt="Definições do Whim">
+<img src="docs/images/settings.png" width="420" alt="Whim's Settings">
 </div>
 
-## Perguntas frequentes
+## FAQ
 
 <details>
-<summary><b>É seguro?</b></summary>
+<summary><b>Is it safe?</b></summary>
 
-- O login é feito no teu browser, na página oficial do Spotify. O Whim nunca vê a tua palavra-passe.
-- A autorização fica guardada só no teu PC, cifrada pelo Windows.
-- O Whim não recolhe nem envia dados para lado nenhum. Fala apenas com o Spotify, com o [LRCLIB](https://lrclib.net) (letras) e com este repositório (atualizações).
-- Para desenhar as ondas, lê o espectro do som do sistema. Nada é gravado.
+- You log in in your own browser, on Spotify's official page. Whim never sees your password.
+- The authorization is stored only on your PC, encrypted by Windows.
+- Whim doesn't collect or send data anywhere. It only talks to Spotify, to [LRCLIB](https://lrclib.net) (lyrics) and to this repository (updates).
+- To draw the waves, it reads the spectrum of your system's sound. Nothing is recorded.
 </details>
 
 <details>
-<summary><b>A letra está adiantada ou atrasada</b></summary>
+<summary><b>The lyrics are early or late</b></summary>
 
-Ajusta em **Definições → Letra → Sincronização da letra**. As letras vêm do LRCLIB, e algumas músicas não têm letra sincronizada.
+Adjust it in **Settings → Letra (Lyrics) → Sincronização da letra (Lyrics sync)**. Lyrics come from LRCLIB, and some songs don't have synced lyrics.
 </details>
 
 <details>
-<summary><b>Não vejo o disco nem o fundo</b></summary>
+<summary><b>I can't see the record or the backdrop</b></summary>
 
-Estão no ambiente de trabalho, por baixo das janelas. Carrega em <kbd>Win</kbd> + <kbd>D</kbd> para os veres. O fundo só aparece enquanto há música a tocar.
+They live on the desktop, under your windows. Press <kbd>Win</kbd> + <kbd>D</kbd> to see them. The backdrop only shows while music is playing.
 </details>
 
 <details>
-<summary><b>Como desinstalo?</b></summary>
+<summary><b>How do I uninstall it?</b></summary>
 
-Definições do Windows → **Aplicações → Aplicações instaladas** → **Whim** → Desinstalar.
+Windows Settings → **Apps → Installed apps** → **Whim** → Uninstall.
 </details>
 
 <details>
-<summary><b>Encontrei um problema</b></summary>
+<summary><b>I found a problem</b></summary>
 
-Abre uma [issue](https://github.com/akrysz-exe/whim-releases/issues) com o que aconteceu e junta o ficheiro de diagnóstico. Para o encontrar, cola `%APPDATA%\Whim\diagnostics.log` na barra de endereço do Explorador de Ficheiros.
+Open an [issue](https://github.com/akrysz-exe/whim-releases/issues) describing what happened and attach the diagnostics file. To find it, paste `%APPDATA%\Whim\diagnostics.log` into File Explorer's address bar.
 </details>
 
-## Requisitos
+## Requirements
 
-- Windows 10 ou 11 (64 bits)
-- Conta Spotify: Premium, ou Free com a app de um amigo Premium ([ver acima](#ligar-o-spotify))
-- Ligação à internet
+- Windows 10 or 11 (64-bit)
+- A Spotify account: Premium, or Free with a Premium friend's app ([see above](#connecting-spotify))
+- An internet connection
 
 ---
 
 <div align="center">
-<sub>Feito por <b>akry_sz</b> · O Whim é um projeto pessoal e não é afiliado, patrocinado nem aprovado pelo Spotify. Spotify é uma marca registada da Spotify AB.</sub>
+<sub>Made by <b>akry_sz</b> · Whim is a personal project and is not affiliated with, sponsored or endorsed by Spotify. Spotify is a registered trademark of Spotify AB.</sub>
 </div>

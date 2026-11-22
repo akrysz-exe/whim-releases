@@ -1,29 +1,29 @@
-# Novidades
+# Changelog
 
 ## 0.6.4
-- **Contas Free agora têm a biblioteca no disco:** vês as tuas playlists e as músicas de que gostaste, tocas uma playlist inteira ou a partir de uma música, e podes guardar músicas nas tuas playlists. A fila continua só para Premium.
+- **Free accounts now get the library on the record:** browse your playlists and Liked Songs, play a whole playlist or start from a given song, and add songs to your playlists. The queue is still Premium-only.
 
 ## 0.6.3
-- **Contas Free:** a janela de login do Spotify já não desaparece quando vais escrever o código enviado por email.
+- **Free accounts:** the Spotify login window no longer disappears when you go to type the code sent by email.
 
 ## 0.6.2
-- **Contas Free:** se falta entrar no leitor do Spotify, o disco avisa e tem um botão para abrir a janela de login (também na bandeja). Já não é preciso reiniciar o Whim.
-- O leitor web volta a abrir-se sozinho se a janela desaparecer.
+- **Free accounts:** if you still need to log in to the Spotify player, the record tells you and has a button to open the login window (also in the tray menu). No more restarting Whim.
+- The web player reopens by itself if its window disappears.
 
 ## 0.6.1
-- Melhorias internas no atualizador automático.
+- Internal improvements to the auto-updater.
 
-## 0.6.0 — atualizações automáticas
-- O Whim passa a atualizar-se sozinho. Procura versões novas ao abrir e a cada 4 horas, descarrega-as em segundo plano e instala-as quando o fechas. Também podes atualizar logo pelo menu da bandeja.
+## 0.6.0 — automatic updates
+- Whim now updates itself. It checks for new versions on start and every 4 hours, downloads them in the background and installs them when you close it. You can also update right away from the tray menu.
 
-## Antes da 0.6
-- **Neon com as cores verdadeiras da capa.** Tons de pele, cabelo e madeira já não viram laranja. Capas a preto e branco dão um neon prateado.
-- **Atalhos fiáveis.** Um toque é sempre uma ação, mesmo em teclados que "ressaltam". A app já não fica presa meio segundo quando a música retoma.
-- **Atalhos de volume:** <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>.
-- **Disco grande, fixo no canto** do ambiente de trabalho, com um cartão que sai dele de forma suave.
-- **Escolha do monitor** no menu da bandeja, para quem tem mais de um, incluindo monitores na vertical.
-- **Altura das ondas** do neon ajustável.
-- **Playlists:** clicar numa playlist abre as músicas; o ▶ toca-a toda.
-- **Letra sempre sincronizada,** a 100 fps.
-- **Muito mais leve:** as animações param quando um jogo ou uma janela tapa o ecrã, e o fundo e o neon gastam bem menos CPU e memória.
-- **Visual novo,** minimalista, para o disco e as Definições. A foto de perfil do Spotify aparece na conta.
+## Before 0.6
+- **Neon in the album's true colours.** Skin, hair and wood tones no longer turn orange. Black-and-white covers give a silver neon.
+- **Reliable shortcuts.** One press is always one action, even on keyboards that "bounce". The app no longer freezes for half a second when the music resumes.
+- **Volume shortcuts:** <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>.
+- **A big record, fixed in the corner** of the desktop, with a card that slides smoothly out of it.
+- **Monitor choice** in the tray menu for anyone with more than one, including portrait monitors.
+- **Adjustable neon wave height.**
+- **Playlists:** clicking a playlist opens its songs; ▶ plays all of it.
+- **Lyrics always in sync,** at 100 fps.
+- **Much lighter:** animations pause when a game or a window covers the screen, and the backdrop and neon use far less CPU and memory.
+- **A new minimal look** for the record and Settings. Your Spotify profile picture shows on the account.
