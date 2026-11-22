@@ -1,5 +1,9 @@
 # Novidades
 
+## 0.6.2
+- **Contas Free:** se falta entrar no leitor do Spotify, o disco avisa e tem um botão para abrir a janela de login (também na bandeja). Já não é preciso reiniciar o Whim.
+- O leitor web volta a abrir-se sozinho se a janela desaparecer.
+
 ## 0.6.1
 - Melhorias internas no atualizador automático.
 
