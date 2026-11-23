@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.7
+- **Terms of use in the installer:** new installs now show the terms (English and Portuguese) and need you to tick *I accept the terms* before installing. They explain that Whim is unofficial and that using it, especially with a Free account, can get your Spotify account limited or banned. Updates skip this page.
+
 ## 0.6.6
 - **Quick search bar:** press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> anywhere to open a search bar in the middle of the screen. Type a song, pick it with the arrows and Enter (or click it) and it plays. <kbd>Esc</kbd> or clicking away closes it.
 - **Waves shortcut:** <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> turns the neon waves on and off (the neon stays on). Both new shortcuts can be changed in the settings.
