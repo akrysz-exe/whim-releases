@@ -120,6 +120,8 @@ They work in any window and you can change them in Settings.
 | Previous track | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd> |
 | Volume up / down | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd> |
 | Toggle the neon | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> |
+| Toggle the neon waves | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>W</kbd> |
+| Quick search (type a song and play it) | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> |
 
 Your keyboard's media keys (⏯ ⏭ ⏮) work too.
 
