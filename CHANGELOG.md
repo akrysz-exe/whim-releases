@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.8
+- **The card slides out of the record:** hover the record and the card comes out of it like a drawer, with everything on it sliding out from behind the record. It tucks back in when it closes.
+- **No more blue strip:** the flash that showed up while the card, the panels or a message opened is gone.
+- **Smoother panels:** the library switches between playlists and songs at once, and search results fade in together instead of one by one.
+- The play/pause icon now crossfades, and the buttons give a light press feedback.
+- **Reduce animations:** new switch in *Settings → General*. Whim now animates even when Windows' animation effects are off; use this switch if you want less movement.
 ## 0.6.7
 - **Terms of use in the installer:** new installs now show the terms (English and Portuguese) and need you to tick *I accept the terms* before installing. They explain that Whim is unofficial and that using it, especially with a Free account, can get your Spotify account limited or banned. Updates skip this page.
 
