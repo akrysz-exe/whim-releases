@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.10
+- **Adding to the queue works again after Whim sat idle:** after a few hours paused, adding a song to the queue failed. Whim now reconnects to Spotify by itself and adds it.
+- After reconnecting, what you were listening to comes back (still playing if it was). If you're listening on your phone, Whim leaves it there.
+
 ## 0.6.9
 - **Songs play again after Whim sat idle:** after a few hours paused, clicking a song in search, in quick search (Ctrl+Alt+S) or in your library did nothing until you restarted Whim. Whim now reconnects to Spotify by itself and plays the song.
 - Shuffle and play/pause recover the same way.
