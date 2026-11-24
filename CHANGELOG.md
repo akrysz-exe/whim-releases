@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.9
+- **Songs play again after Whim sat idle:** after a few hours paused, clicking a song in search, in quick search (Ctrl+Alt+S) or in your library did nothing until you restarted Whim. Whim now reconnects to Spotify by itself and plays the song.
+- Shuffle and play/pause recover the same way.
+
 ## 0.6.8
 - **The card slides out of the record:** hover the record and the card comes out of it like a drawer, with everything on it sliding out from behind the record. It tucks back in when it closes.
 - **No more blue strip:** the flash that showed up while the card, the panels or a message opened is gone.
