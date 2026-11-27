@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.11
+- **Add to queue from quick search (Ctrl+Alt+S):** each result has an add-to-queue button. It turns into a green check once added, and the bar stays open so you can add several songs.
+- **No more messages over the player card** (like "Playing: ..." or "Added to queue").
+
 ## 0.6.10
 - **Adding to the queue works again after Whim sat idle:** after a few hours paused, adding a song to the queue failed. Whim now reconnects to Spotify by itself and adds it.
 - After reconnecting, what you were listening to comes back (still playing if it was). If you're listening on your phone, Whim leaves it there.
@@ -13,7 +17,7 @@
 - **No more blue strip:** the flash that showed up while the card, the panels or a message opened is gone.
 - **Smoother panels:** the library switches between playlists and songs at once, and search results fade in together instead of one by one.
 - The play/pause icon now crossfades, and the buttons give a light press feedback.
-- **Reduce animations:** new switch in *Settings → General*. Whim now animates even when Windows' animation effects are off; use this switch if you want less movement.
+- **Reduce animations:** new switch in *Settings â†’ General*. Whim now animates even when Windows' animation effects are off; use this switch if you want less movement.
 ## 0.6.7
 - **Terms of use in the installer:** new installs now show the terms (English and Portuguese) and need you to tick *I accept the terms* before installing. They explain that Whim is unofficial and that using it, especially with a Free account, can get your Spotify account limited or banned. Updates skip this page.
 
@@ -42,17 +46,17 @@
 ## 0.6.1
 - Internal improvements to the auto-updater.
 
-## 0.6.0 — automatic updates
+## 0.6.0 â€” automatic updates
 - Whim now updates itself. It checks for new versions on start and every 4 hours, downloads them in the background and installs them when you close it. You can also update right away from the tray menu.
 
 ## Before 0.6
 - **Neon in the album's true colours.** Skin, hair and wood tones no longer turn orange. Black-and-white covers give a silver neon.
 - **Reliable shortcuts.** One press is always one action, even on keyboards that "bounce". The app no longer freezes for half a second when the music resumes.
-- **Volume shortcuts:** <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>↑</kbd> / <kbd>↓</kbd>.
+- **Volume shortcuts:** <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>â†‘</kbd> / <kbd>â†“</kbd>.
 - **A big record, fixed in the corner** of the desktop, with a card that slides smoothly out of it.
 - **Monitor choice** in the tray menu for anyone with more than one, including portrait monitors.
 - **Adjustable neon wave height.**
-- **Playlists:** clicking a playlist opens its songs; ▶ plays all of it.
+- **Playlists:** clicking a playlist opens its songs; â–¶ plays all of it.
 - **Lyrics always in sync,** at 100 fps.
 - **Much lighter:** animations pause when a game or a window covers the screen, and the backdrop and neon use far less CPU and memory.
 - **A new minimal look** for the record and Settings. Your Spotify profile picture shows on the account.
